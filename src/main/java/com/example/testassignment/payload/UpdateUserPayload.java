@@ -20,7 +20,7 @@ public class UpdateUserPayload {
     private String lastName;
     @NotEmptyOrNull(message = "birthday can't be blank")
     private String birthday;
-    private Address address; // todo: change type
+    private Address address;
     @Phone
-    private String phoneNumber; // todo: add validation
+    private String phoneNumber;
 }
